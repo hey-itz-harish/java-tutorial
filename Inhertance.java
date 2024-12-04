@@ -11,5 +11,6 @@ class Main{
     public static void main(String[] args) {
         subclass obj = new subclass();
         obj.print_increment();
+        System.out.println(obj.count);
     }
 }
