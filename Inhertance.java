@@ -7,7 +7,7 @@ class subclass  extends Inhertance{
         System.out.println(++count);
     }
 }
-class main{
+class Main{
     public static void main(String[] args) {
         subclass obj = new subclass();
         obj.print_increment();
